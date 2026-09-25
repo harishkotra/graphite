@@ -4,6 +4,14 @@
 
 Most "AI battles" compare vibes. Graphite compares *artifacts*: one of the two models runs, one of them crashes, and the measured properties of each rendered PNG — axes, labels, colours, figure size — say who actually did the work. It is a model-progression demo (older model in slot A, newer model in slot B) with visual proof, built to be screen-recorded.
 
+https://github.com/user-attachments/assets/bd2aefc2-e472-4ef5-a0e9-a28507097526
+
+<img width="1858" height="1669" alt="screencapture-localhost-5173-2026-09-25-17_56_00" src="https://github.com/user-attachments/assets/06c366a2-4799-47fe-be64-e65230d53f2b" />
+<img width="1858" height="2805" alt="screencapture-localhost-5173-2026-09-25-17_56_18" src="https://github.com/user-attachments/assets/a9cef273-e9f9-41b0-8764-9aec77dac02b" />
+<img width="1858" height="2601" alt="screencapture-localhost-5173-2026-09-25-18_19_34" src="https://github.com/user-attachments/assets/17d794c8-8cdb-4593-bb1d-b4e532484889" />
+<img width="1685" height="1158" alt="Screenshot at Sep 25 18-20-54" src="https://github.com/user-attachments/assets/13323b15-d829-4c9a-9f91-626b420dbeeb" />
+
+
 ---
 
 ## Table of contents
