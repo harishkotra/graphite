@@ -1,0 +1,27 @@
+{
+  "name": "graphite",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Two models get the same CSV. Both write matplotlib code. The sandbox executes it. The judge picks the chart that actually answers the question.",
+  "scripts": {
+    "dev": "concurrently -n web,gateway,executor \"pnpm run dev:web\" \"pnpm run dev:gateway\" \"pnpm run dev:executor\"",
+    "dev:web": "vite",
+    "dev:gateway": "tsx server/gateway.ts",
+    "dev:executor": "sh -c \"if [ -x .venv/bin/uvicorn ]; then UV=.venv/bin/uvicorn; else UV=uvicorn; fi; MPLCONFIGDIR=$PWD/.mplcache $UV executor:app --host 127.0.0.1 --port 8000 --app-dir backend\"",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "concurrently": "^9.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vite": "^7.0.0"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}

@@ -1,0 +1,216 @@
+date,weekday,title,stack,tools,build_seconds,tests_run,tests_failed,lines_changed,cache_warm
+2024-09-02,Mon,Onboarding flow,Swift App,xcodebuild;swiftlint,228,143,0,224,0
+2024-09-03,Tue,SIMD dot product,Rust Core,cargo;clippy;criterion,119,58,1,223,0
+2024-09-04,Wed,Arena allocator pass,Rust Core,cargo;clippy;criterion,137,94,0,122,0
+2024-09-05,Thu,Chart tooltip perf,React+Vite,pnpm;vite;vitest;playwright,80,131,0,106,0
+2024-09-06,Fri,Ingest endpoint sharding,FastAPI,uv;pytest;ruff,54,147,0,14,0
+2024-09-09,Mon,Push payload dedupe,Swift App,xcodebuild;swiftlint,184,61,0,147,0
+2024-09-10,Tue,Parser zero-copy,Rust Core,cargo;clippy;criterion,153,103,0,24,0
+2024-09-11,Wed,Settings drawer redesign,React+Vite,pnpm;vite;vitest;playwright,71,34,1,375,0
+2024-09-12,Thu,Schema migration 14,FastAPI,uv;pytest;ruff,48,118,0,276,0
+2024-09-13,Fri,Shortcut intents,Swift App,xcodebuild;swiftlint,227,178,0,343,0
+2024-09-16,Mon,Edge middleware split,Next.js,pnpm;next;jest;playwright,96,145,0,202,0
+2024-09-17,Tue,Ingest endpoint sharding,FastAPI,uv;pytest;ruff,48,141,0,285,0
+2024-09-18,Wed,Ingest endpoint sharding,FastAPI,uv;pytest;ruff,55,209,0,152,0
+2024-09-19,Thu,Plugin loader,Go CLI,go;golangci-lint,35,37,0,277,0
+2024-09-20,Fri,Cache eviction LRU,Rust Core,cargo;clippy;criterion,141,179,0,154,0
+2024-09-23,Mon,Route groups cleanup,Next.js,pnpm;next;jest;playwright,109,89,0,255,0
+2024-09-24,Tue,Feed pagination,Next.js,pnpm;next;jest;playwright,114,178,0,83,0
+2024-09-25,Wed,TUI render loop,Go CLI,go;golangci-lint,34,59,0,448,0
+2024-09-26,Thu,Shortcut intents,Swift App,xcodebuild;swiftlint,246,181,0,262,0
+2024-09-27,Fri,Schema migration 14,FastAPI,uv;pytest;ruff,46,141,0,255,0
+2024-09-30,Mon,Sync conflict UI,Swift App,xcodebuild;swiftlint,248,131,0,420,0
+2024-10-01,Tue,List diffable ds,Swift App,xcodebuild;swiftlint,230,126,0,186,0
+2024-10-02,Wed,Cache eviction LRU,Rust Core,cargo;clippy;criterion,161,120,0,360,0
+2024-10-03,Thu,Webhook retry queue,FastAPI,uv;pytest;ruff,55,197,0,361,0
+2024-10-04,Fri,Settings drawer redesign,React+Vite,pnpm;vite;vitest;playwright,74,140,0,253,0
+2024-10-07,Mon,TUI render loop,Go CLI,go;golangci-lint,29,78,0,413,0
+2024-10-08,Tue,Route groups cleanup,Next.js,pnpm;next;jest;playwright,105,94,0,52,0
+2024-10-09,Wed,Schema migration 14,FastAPI,uv;pytest;ruff,57,166,0,141,0
+2024-10-10,Thu,Auth flow rework,React+Vite,pnpm;vite;vitest;playwright,88,145,0,495,0
+2024-10-11,Fri,Chart tooltip perf,React+Vite,pnpm;vite;vitest;playwright,78,146,0,261,0
+2024-10-14,Mon,Arena allocator pass,Rust Core,cargo;clippy;criterion,139,174,0,189,0
+2024-10-15,Tue,Threadpool rework,Rust Core,cargo;clippy;criterion,110,141,0,425,0
+2024-10-16,Wed,Dashboard grid refactor,React+Vite,pnpm;vite;vitest;playwright,73,116,0,280,0
+2024-10-17,Thu,Shortcut intents,Swift App,xcodebuild;swiftlint,204,164,0,339,0
+2024-10-18,Fri,Chart tooltip perf,React+Vite,pnpm;vite;vitest;playwright,81,174,0,317,0
+2024-10-21,Mon,Table virtualization,React+Vite,pnpm;vite;vitest;playwright,86,161,1,59,0
+2024-10-22,Tue,SIMD dot product,Rust Core,cargo;clippy;criterion,178,126,0,337,0
+2024-10-23,Wed,Server actions rollout,Next.js,pnpm;next;jest;playwright,116,154,1,189,0
+2024-10-24,Thu,Config loader v3,Go CLI,go;golangci-lint,23,95,0,5,0
+2024-10-25,Fri,Edge middleware split,Next.js,pnpm;next;jest;playwright,98,117,0,648,0
+2024-10-28,Mon,SIMD dot product,Rust Core,cargo;clippy;criterion,142,129,0,78,0
+2024-10-29,Tue,ISR cache tuning,Next.js,pnpm;next;jest;playwright,104,151,0,229,0
+2024-10-30,Wed,SIMD dot product,Rust Core,cargo;clippy;criterion,137,120,1,250,0
+2024-10-31,Thu,SIMD dot product,Rust Core,cargo;clippy;criterion,164,105,0,347,0
+2024-11-01,Fri,Webhook retry queue,FastAPI,uv;pytest;ruff,49,117,0,401,0
+2024-11-04,Mon,Config loader v3,Go CLI,go;golangci-lint,34,123,1,83,0
+2024-11-05,Tue,SIMD dot product,Rust Core,cargo;clippy;criterion,152,149,0,546,0
+2024-11-06,Wed,Image pipeline fix,Next.js,pnpm;next;jest;playwright,95,132,0,412,0
+2024-11-07,Thu,Audit log stream,FastAPI,uv;pytest;ruff,62,134,0,144,0
+2024-11-08,Fri,Onboarding flow,Swift App,xcodebuild;swiftlint,184,64,1,212,0
+2024-11-11,Mon,Rate limiter v2,FastAPI,uv;pytest;ruff,44,110,0,161,0
+2024-11-12,Tue,Config loader v3,Go CLI,go;golangci-lint,29,108,1,71,0
+2024-11-13,Wed,Ingest endpoint sharding,FastAPI,uv;pytest;ruff,61,141,0,225,0
+2024-11-14,Thu,FFI boundary audit,Rust Core,cargo;clippy;criterion,168,136,1,254,0
+2024-11-15,Fri,Route groups cleanup,Next.js,pnpm;next;jest;playwright,115,146,0,202,0
+2024-11-18,Mon,Ingest endpoint sharding,FastAPI,uv;pytest;ruff,52,156,0,179,0
+2024-11-19,Tue,Auth flow rework,React+Vite,pnpm;vite;vitest;playwright,81,78,0,177,0
+2024-11-20,Wed,Edge middleware split,Next.js,pnpm;next;jest;playwright,100,194,0,201,0
+2024-11-21,Thu,Chart tooltip perf,React+Vite,pnpm;vite;vitest;playwright,77,113,0,348,0
+2024-11-22,Fri,Image pipeline fix,Next.js,pnpm;next;jest;playwright,83,165,0,454,0
+2024-11-25,Mon,Table virtualization,React+Vite,pnpm;vite;vitest;playwright,80,194,0,148,0
+2024-11-26,Tue,Edge middleware split,Next.js,pnpm;next;jest;playwright,124,159,0,260,0
+2024-11-27,Wed,Auth flow rework,React+Vite,pnpm;vite;vitest;playwright,71,168,0,324,0
+2024-11-28,Thu,Dashboard grid refactor,React+Vite,pnpm;vite;vitest;playwright,71,156,0,158,0
+2024-11-29,Fri,Ingest endpoint sharding,FastAPI,uv;pytest;ruff,56,160,0,159,0
+2024-12-02,Mon,SIMD dot product,Rust Core,cargo;clippy;criterion,162,110,0,383,0
+2024-12-03,Tue,Push payload dedupe,Swift App,xcodebuild;swiftlint,262,140,0,194,0
+2024-12-04,Wed,Widget timeline,Swift App,xcodebuild;swiftlint,172,132,0,290,0
+2024-12-05,Thu,Audit log stream,FastAPI,uv;pytest;ruff,47,193,0,202,0
+2024-12-06,Fri,Config loader v3,Go CLI,go;golangci-lint,33,39,1,322,0
+2024-12-09,Mon,Plugin loader,Go CLI,go;golangci-lint,30,41,0,16,0
+2024-12-10,Tue,Rate limiter v2,FastAPI,uv;pytest;ruff,58,153,0,517,0
+2024-12-11,Wed,Schema migration 14,FastAPI,uv;pytest;ruff,43,156,0,355,0
+2024-12-12,Thu,Widget timeline,Swift App,xcodebuild;swiftlint,153,126,0,135,0
+2024-12-13,Fri,Parser zero-copy,Rust Core,cargo;clippy;criterion,175,180,0,137,0
+2024-12-16,Mon,ISR cache tuning,Next.js,pnpm;next;jest;playwright,124,222,0,376,0
+2024-12-17,Tue,Table virtualization,React+Vite,pnpm;vite;vitest;playwright,67,161,0,183,0
+2024-12-18,Wed,Edge middleware split,Next.js,pnpm;next;jest;playwright,92,138,0,230,0
+2024-12-19,Thu,Table virtualization,React+Vite,pnpm;vite;vitest;playwright,81,193,0,45,0
+2024-12-20,Fri,Table virtualization,React+Vite,pnpm;vite;vitest;playwright,80,162,0,377,0
+2024-12-23,Mon,Cache eviction LRU,Rust Core,cargo;clippy;criterion,132,185,0,379,0
+2024-12-24,Tue,TUI render loop,Go CLI,go;golangci-lint,24,43,0,276,0
+2024-12-25,Wed,Config loader v3,Go CLI,go;golangci-lint,31,2,0,276,0
+2024-12-26,Thu,Image pipeline fix,Next.js,pnpm;next;jest;playwright,91,95,0,338,0
+2024-12-27,Fri,Rate limiter v2,FastAPI,uv;pytest;ruff,53,132,0,176,0
+2024-12-30,Mon,ISR cache tuning,Next.js,pnpm;next;jest;playwright,109,116,0,318,0
+2024-12-31,Tue,Chart tooltip perf,React+Vite,pnpm;vite;vitest;playwright,82,114,0,274,0
+2025-01-01,Wed,Threadpool rework,Rust Core,cargo;clippy;criterion,141,68,0,300,0
+2025-01-02,Thu,Binary size trim,Go CLI,go;golangci-lint,25,48,0,393,0
+2025-01-03,Fri,Schema migration 14,FastAPI,uv;pytest;ruff,48,110,0,259,0
+2025-01-06,Mon,Plugin loader,Go CLI,go;golangci-lint,32,88,1,402,0
+2025-01-07,Tue,FFI boundary audit,Rust Core,cargo;clippy;criterion,145,182,1,283,0
+2025-01-08,Wed,Auth flow rework,React+Vite,pnpm;vite;vitest;playwright,73,154,0,256,0
+2025-01-09,Thu,Config loader v3,Go CLI,go;golangci-lint,27,77,0,89,0
+2025-01-10,Fri,Auth flow rework,React+Vite,pnpm;vite;vitest;playwright,78,151,0,283,0
+2025-01-13,Mon,Edge middleware split,Next.js,pnpm;next;jest;playwright,105,162,0,56,0
+2025-01-14,Tue,Plugin loader,Go CLI,go;golangci-lint,37,107,0,238,0
+2025-01-15,Wed,Cache eviction LRU,Rust Core,cargo;clippy;criterion,103,186,0,187,1
+2025-01-16,Thu,Image pipeline fix,Next.js,pnpm;next;jest;playwright,67,144,0,67,1
+2025-01-17,Fri,Plugin loader,Go CLI,go;golangci-lint,11,72,0,448,1
+2025-01-20,Mon,ISR cache tuning,Next.js,pnpm;next;jest;playwright,61,115,0,342,1
+2025-01-21,Tue,SIMD dot product,Rust Core,cargo;clippy;criterion,62,121,0,383,1
+2025-01-22,Wed,FFI boundary audit,Rust Core,cargo;clippy;criterion,72,189,0,565,1
+2025-01-23,Thu,Push payload dedupe,Swift App,xcodebuild;swiftlint,166,131,0,80,1
+2025-01-24,Fri,Sync conflict UI,Swift App,xcodebuild;swiftlint,91,95,0,56,1
+2025-01-27,Mon,Parser zero-copy,Rust Core,cargo;clippy;criterion,95,130,0,352,1
+2025-01-28,Tue,Schema migration 14,FastAPI,uv;pytest;ruff,32,173,0,217,1
+2025-01-29,Wed,Webhook retry queue,FastAPI,uv;pytest;ruff,33,111,0,256,1
+2025-01-30,Thu,Audit log stream,FastAPI,uv;pytest;ruff,30,117,1,464,1
+2025-01-31,Fri,TUI render loop,Go CLI,go;golangci-lint,22,62,0,9,1
+2025-02-03,Mon,Binary size trim,Go CLI,go;golangci-lint,19,47,0,196,1
+2025-02-04,Tue,Parser zero-copy,Rust Core,cargo;clippy;criterion,76,103,0,277,1
+2025-02-05,Wed,List diffable ds,Swift App,xcodebuild;swiftlint,112,180,0,244,1
+2025-02-06,Thu,Image pipeline fix,Next.js,pnpm;next;jest;playwright,70,167,0,380,1
+2025-02-07,Fri,Edge middleware split,Next.js,pnpm;next;jest;playwright,67,173,0,438,1
+2025-02-10,Mon,Ingest endpoint sharding,FastAPI,uv;pytest;ruff,31,152,0,128,1
+2025-02-11,Tue,Ingest endpoint sharding,FastAPI,uv;pytest;ruff,31,39,1,459,1
+2025-02-12,Wed,Parser rewrite,Go CLI,go;golangci-lint,17,87,0,95,1
+2025-02-13,Thu,Config loader v3,Go CLI,go;golangci-lint,19,68,0,59,1
+2025-02-14,Fri,Binary size trim,Go CLI,go;golangci-lint,20,97,0,346,1
+2025-02-17,Mon,Route groups cleanup,Next.js,pnpm;next;jest;playwright,69,136,0,89,1
+2025-02-18,Tue,Cache eviction LRU,Rust Core,cargo;clippy;criterion,82,145,0,437,1
+2025-02-19,Wed,Config loader v3,Go CLI,go;golangci-lint,25,-10,0,85,1
+2025-02-20,Thu,Onboarding flow,Swift App,xcodebuild;swiftlint,108,159,0,209,1
+2025-02-21,Fri,Onboarding flow,Swift App,xcodebuild;swiftlint,138,155,0,420,1
+2025-02-24,Mon,Threadpool rework,Rust Core,cargo;clippy;criterion,88,134,0,357,1
+2025-02-25,Tue,Push payload dedupe,Swift App,xcodebuild;swiftlint,145,149,0,299,1
+2025-02-26,Wed,Server actions rollout,Next.js,pnpm;next;jest;playwright,50,156,0,320,1
+2025-02-27,Thu,Webhook retry queue,FastAPI,uv;pytest;ruff,35,147,0,243,1
+2025-02-28,Fri,Schema migration 14,FastAPI,uv;pytest;ruff,24,172,0,417,1
+2025-03-03,Mon,Audit log stream,FastAPI,uv;pytest;ruff,26,131,0,445,1
+2025-03-04,Tue,Parser zero-copy,Rust Core,cargo;clippy;criterion,72,161,0,263,1
+2025-03-05,Wed,Cache eviction LRU,Rust Core,cargo;clippy;criterion,147,104,0,239,1
+2025-03-06,Thu,Server actions rollout,Next.js,pnpm;next;jest;playwright,68,107,0,224,1
+2025-03-07,Fri,Threadpool rework,Rust Core,cargo;clippy;criterion,76,113,0,161,1
+2025-03-10,Mon,Onboarding flow,Swift App,xcodebuild;swiftlint,147,156,0,133,1
+2025-03-11,Tue,Bulk export stream,FastAPI,uv;pytest;ruff,42,121,0,111,1
+2025-03-12,Wed,Ingest endpoint sharding,FastAPI,uv;pytest;ruff,33,169,0,214,1
+2025-03-13,Thu,Settings drawer redesign,React+Vite,pnpm;vite;vitest;playwright,54,115,0,23,1
+2025-03-14,Fri,Plugin loader,Go CLI,go;golangci-lint,18,50,0,263,1
+2025-03-17,Mon,Image pipeline fix,Next.js,pnpm;next;jest;playwright,48,157,0,461,1
+2025-03-18,Tue,Feed pagination,Next.js,pnpm;next;jest;playwright,62,160,0,414,1
+2025-03-19,Wed,Chart tooltip perf,React+Vite,pnpm;vite;vitest;playwright,67,136,0,468,1
+2025-03-20,Thu,Plugin loader,Go CLI,go;golangci-lint,23,47,0,486,1
+2025-03-21,Fri,Binary size trim,Go CLI,go;golangci-lint,19,97,0,413,1
+2025-03-24,Mon,ISR cache tuning,Next.js,pnpm;next;jest;playwright,58,131,0,523,1
+2025-03-25,Tue,Parser zero-copy,Rust Core,cargo;clippy;criterion,94,117,0,269,1
+2025-03-26,Wed,Parallel fetch pool,Go CLI,go;golangci-lint,12,27,0,305,1
+2025-03-27,Thu,Threadpool rework,Rust Core,cargo;clippy;criterion,75,147,0,177,1
+2025-03-28,Fri,Server actions rollout,Next.js,pnpm;next;jest;playwright,50,187,0,316,1
+2025-03-31,Mon,Binary size trim,Go CLI,go;golangci-lint,25,56,0,483,1
+2025-04-01,Tue,Route groups cleanup,Next.js,pnpm;next;jest;playwright,89,166,0,213,1
+2025-04-02,Wed,Parser rewrite,Go CLI,go;golangci-lint,15,54,0,47,1
+2025-04-03,Thu,ISR cache tuning,Next.js,pnpm;next;jest;playwright,74,62,0,325,1
+2025-04-04,Fri,Push payload dedupe,Swift App,xcodebuild;swiftlint,103,92,0,344,1
+2025-04-07,Mon,Bulk export stream,FastAPI,uv;pytest;ruff,27,130,0,29,1
+2025-04-08,Tue,Theme tokens migration,React+Vite,pnpm;vite;vitest;playwright,59,157,0,510,1
+2025-04-09,Wed,Parser rewrite,Go CLI,go;golangci-lint,19,63,0,14,1
+2025-04-10,Thu,Feed pagination,Next.js,pnpm;next;jest;playwright,64,146,0,386,1
+2025-04-11,Fri,Parallel fetch pool,Go CLI,go;golangci-lint,20,61,0,409,1
+2025-04-14,Mon,Edge middleware split,Next.js,pnpm;next;jest;playwright,72,176,0,168,1
+2025-04-15,Tue,Arena allocator pass,Rust Core,cargo;clippy;criterion,71,144,0,471,1
+2025-04-16,Wed,Onboarding flow,Swift App,xcodebuild;swiftlint,151,120,0,184,1
+2025-04-17,Thu,Audit log stream,FastAPI,uv;pytest;ruff,31,116,0,634,1
+2025-04-18,Fri,Config loader v3,Go CLI,go;golangci-lint,20,88,0,261,1
+2025-04-21,Mon,Parser zero-copy,Rust Core,cargo;clippy;criterion,109,165,0,238,1
+2025-04-22,Tue,Push payload dedupe,Swift App,xcodebuild;swiftlint,125,178,0,243,1
+2025-04-23,Wed,FFI boundary audit,Rust Core,cargo;clippy;criterion,83,75,0,252,1
+2025-04-24,Thu,Route groups cleanup,Next.js,pnpm;next;jest;playwright,67,120,0,243,1
+2025-04-25,Fri,Shortcut intents,Swift App,xcodebuild;swiftlint,168,162,0,53,1
+2025-04-28,Mon,Onboarding flow,Swift App,xcodebuild;swiftlint,121,170,0,237,1
+2025-04-29,Tue,Rate limiter v2,FastAPI,uv;pytest;ruff,29,139,0,145,1
+2025-04-30,Wed,Parser zero-copy,Rust Core,cargo;clippy;criterion,54,127,0,231,1
+2025-05-01,Thu,Config loader v3,Go CLI,go;golangci-lint,25,59,0,99,1
+2025-05-02,Fri,Chart tooltip perf,React+Vite,pnpm;vite;vitest;playwright,48,118,0,171,1
+2025-05-05,Mon,Parser zero-copy,Rust Core,cargo;clippy;criterion,74,165,0,331,1
+2025-05-06,Tue,Table virtualization,React+Vite,pnpm;vite;vitest;playwright,38,176,0,77,1
+2025-05-07,Wed,Ingest endpoint sharding,FastAPI,uv;pytest;ruff,37,124,0,84,1
+2025-05-08,Thu,Parser zero-copy,Rust Core,cargo;clippy;criterion,98,129,0,401,1
+2025-05-09,Fri,Bulk export stream,FastAPI,uv;pytest;ruff,21,126,0,292,1
+2025-05-12,Mon,Schema migration 14,FastAPI,uv;pytest;ruff,35,154,0,127,1
+2025-05-13,Tue,Shortcut intents,Swift App,xcodebuild;swiftlint,144,169,0,189,1
+2025-05-14,Wed,Server actions rollout,Next.js,pnpm;next;jest;playwright,52,93,0,365,1
+2025-05-15,Thu,Sync conflict UI,Swift App,xcodebuild;swiftlint,123,146,0,414,1
+2025-05-16,Fri,Ingest endpoint sharding,FastAPI,uv;pytest;ruff,37,136,0,210,1
+2025-05-19,Mon,Webhook retry queue,FastAPI,uv;pytest;ruff,30,211,0,167,1
+2025-05-20,Tue,Settings drawer redesign,React+Vite,pnpm;vite;vitest;playwright,51,181,0,381,1
+2025-05-21,Wed,Route groups cleanup,Next.js,pnpm;next;jest;playwright,68,155,0,534,1
+2025-05-22,Thu,Arena allocator pass,Rust Core,cargo;clippy;criterion,93,119,0,296,1
+2025-05-23,Fri,Webhook retry queue,FastAPI,uv;pytest;ruff,24,177,0,229,1
+2025-05-26,Mon,Settings drawer redesign,React+Vite,pnpm;vite;vitest;playwright,51,128,0,296,1
+2025-05-27,Tue,Chart tooltip perf,React+Vite,pnpm;vite;vitest;playwright,37,138,0,327,1
+2025-05-28,Wed,Settings drawer redesign,React+Vite,pnpm;vite;vitest;playwright,56,152,0,99,1
+2025-05-29,Thu,Route groups cleanup,Next.js,pnpm;next;jest;playwright,58,190,0,320,1
+2025-05-30,Fri,Parser zero-copy,Rust Core,cargo;clippy;criterion,49,160,0,84,1
+2025-06-02,Mon,Onboarding flow,Swift App,xcodebuild;swiftlint,133,74,0,266,1
+2025-06-03,Tue,Auth flow rework,React+Vite,pnpm;vite;vitest;playwright,45,133,0,109,1
+2025-06-04,Wed,Schema migration 14,FastAPI,uv;pytest;ruff,26,176,0,238,1
+2025-06-05,Thu,Threadpool rework,Rust Core,cargo;clippy;criterion,108,167,0,85,1
+2025-06-06,Fri,Widget timeline,Swift App,xcodebuild;swiftlint,98,83,0,387,1
+2025-06-09,Mon,Binary size trim,Go CLI,go;golangci-lint,17,66,0,166,1
+2025-06-10,Tue,Feed pagination,Next.js,pnpm;next;jest;playwright,55,149,0,217,1
+2025-06-11,Wed,Table virtualization,React+Vite,pnpm;vite;vitest;playwright,59,168,0,45,1
+2025-06-12,Thu,Cache eviction LRU,Rust Core,cargo;clippy;criterion,81,132,0,316,1
+2025-06-13,Fri,Push payload dedupe,Swift App,xcodebuild;swiftlint,155,104,0,124,1
+2025-06-16,Mon,Cache eviction LRU,Rust Core,cargo;clippy;criterion,80,150,0,472,1
+2025-06-17,Tue,Auth flow rework,React+Vite,pnpm;vite;vitest;playwright,52,116,0,24,1
+2025-06-18,Wed,Cache eviction LRU,Rust Core,cargo;clippy;criterion,75,107,1,94,1
+2025-06-19,Thu,Sync conflict UI,Swift App,xcodebuild;swiftlint,148,144,0,376,1
+2025-06-20,Fri,Edge middleware split,Next.js,pnpm;next;jest;playwright,60,112,0,179,1
+2025-06-23,Mon,Onboarding flow,Swift App,xcodebuild;swiftlint,154,160,0,155,1
+2025-06-24,Tue,Bulk export stream,FastAPI,uv;pytest;ruff,33,107,0,585,1
+2025-06-25,Wed,Chart tooltip perf,React+Vite,pnpm;vite;vitest;playwright,54,174,0,212,1
+2025-06-26,Thu,TUI render loop,Go CLI,go;golangci-lint,24,37,0,290,1
+2025-06-27,Fri,Auth flow rework,React+Vite,pnpm;vite;vitest;playwright,42,150,0,8,1

@@ -1,0 +1,46 @@
+# --- dependencies ---
+node_modules/
+.pnpm-store/
+
+# --- build output ---
+dist/
+build/
+*.tsbuildinfo
+
+# --- python ---
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.mplcache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- secrets & env (never commit keys) ---
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets.*
+
+# --- local run artifacts ---
+*.log
+*.pid
+
+# --- OS / editor noise ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# --- exported media (user downloads, not source) ---
+export/
+share-card*.png
+graphite-chart-*.png
